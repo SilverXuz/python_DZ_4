@@ -8,14 +8,14 @@
 # Логика сортировки состоит в том, что множитель икса всегда первый, а степень всегда вторая в списке.
 
 #  Выгрузка строки из первого файла
-path = 'mn1.txt'
+path = 'C:\\Users\\Silver\\Desktop\\DZ_4\\Task5\\mn1.txt'
 data = open(path, 'r')
 for line in data:
     print(line)
 data.close()
 
 #  Выгрузка строки из второго файла
-path1 = 'mn2.txt'
+path1 = 'C:\\Users\\Silver\\Desktop\\DZ_4\\Task5\\mn2.txt'
 data1 = open(path1, 'r')
 for line1 in data1:
     print(line1)
@@ -74,6 +74,6 @@ for i in result:
         j -= 1
 
 print(" + ".join(map(str, list_mn)) + " = 0")
-with open('mn_new.txt', 'w') as data:
+with open('C:\\Users\\Silver\\Desktop\\DZ_4\\Task5\\mn_new.txt', 'w') as data:
     data.write(" + ".join(map(str, list_mn)) + " = 0")
     print('Третий файл записан!')
