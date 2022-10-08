@@ -6,6 +6,5 @@
 import math
 d = input('Введите точность: ')
 
-d = str(d)
 len_d = len(d) - 2
 print(f"pi = {math.pi:.{len_d}f}")
